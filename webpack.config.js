@@ -11,8 +11,22 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: "Final Output",
-            template: "./src/template.html"
+            template: "./src/template.html",
+            clean: true,
         })
     ],
+    module: {
+        rules:[
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader'],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
+        ],
+    },
     devtool: "inline-source-map",
+    cache:false,
 };
