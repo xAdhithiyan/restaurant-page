@@ -2,10 +2,11 @@
 :root{
     font-family: 'Patrick Hand', cursive;
     --text-color: rgba(246,175,133,255);
+    --bg-color:  rgba(73,96,166,255)
 }
 
 body{
-    background-color: rgba(73,96,166,255);
+    background-color: var(--bg-color);
     height: 99vh;
     width: 100vw;
 }

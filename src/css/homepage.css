@@ -96,8 +96,11 @@ hr{
 }
 
 /* navigation selection bar */
-.navigation > div:nth-child(1){
-    border-bottom: 2px solid var(--text-color);
+.navigation > div{
     padding-right: 5px;
     padding-left: 5px;
 }
+.homePage > .navigation > div:nth-child(1){
+    border-bottom: 2px solid var(--text-color);
+}
+
