@@ -1,14 +1,22 @@
+.homePage{
+    height: 100%;
+    display: grid;
+    grid-template-rows:45px repeat(2,auto) 1fr auto auto;
+}
+
 .navigation{
     display: flex;
     justify-content: center;
     gap:100px;
     margin: 10px;
-    color: var(--text-color)
+    color: var(--text-color);
+    z-index: 1;
 
 }
 hr{
     width: 50%;
     border:1px solid black;
+    z-index: 1;
 }
 .heading{
     display: flex;
@@ -72,6 +80,9 @@ hr{
     background-color: white;
     background-color: rgba(246,175,133,0.7);
 
+}
+.mainCard > div:nth-child(2){
+    z-index: 1;
 }
 .card img{
     height: 50px;

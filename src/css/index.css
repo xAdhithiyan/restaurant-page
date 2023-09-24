@@ -10,7 +10,6 @@ body{
     width: 100vw;
 }
 .content{
-    height: 100%;
-    display: grid;
-    grid-template-rows:45px repeat(2,auto) 1fr auto auto;
+    height: 99vh;
+    width: 100vw;
 }

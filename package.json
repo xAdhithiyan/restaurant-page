@@ -19,6 +19,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "animateplus": "^2.1.1"
+    "animateplus": "^2.1.1",
+    "crypto-browserify": "^3.12.0"
   }
 }

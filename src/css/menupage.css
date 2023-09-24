@@ -1,0 +1,26 @@
+.outerMenu{
+    height: 78vh;
+    width: 70vw;
+    margin:0 auto;    
+    background-color: white;
+    border:3px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color)
+    
+}
+.menu{
+    height: 90%;
+    width: 95%;
+    border:3px solid black;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.title{
+    padding:10px;
+    font-size: 5rem;
+}

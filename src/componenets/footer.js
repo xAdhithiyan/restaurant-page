@@ -10,8 +10,10 @@ function footer() {
 
     let anchor = document.createElement("a");
     anchor.setAttribute("href", "https://github.com/xAdhithiyan");
+    anchor.setAttribute("target", "_blank");
     let img = document.createElement("img");
     img.setAttribute("src", github)
+
 
 
     anchor.appendChild(img)
