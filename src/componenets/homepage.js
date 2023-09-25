@@ -2,7 +2,7 @@ import homepageCards from "./homepageCards";
 import footer from "./footer";
 import "../css/homepage.css"
 import logo from "/images/logo.jpeg"
-import animation from "../animation/animate";
+import animation from "../animation/animateHomePage";
 
 function homepage(){
     const content = document.querySelector(".content");

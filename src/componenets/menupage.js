@@ -1,6 +1,7 @@
 import { navigationName } from "./homepage";
 import "../css/menupage.css"
 import footer from "./footer";
+import menuAnimation from "../animation/animationMenuPage";
 import pastry1 from "/images/pastry-1.jpg"
 import pastry2 from "/images/pastry-2.jpg"
 import pastry3 from "/images/pastry-3.jpg"
@@ -94,6 +95,8 @@ function menupage(){
     menuPageConent.appendChild(footer())
 
     content.appendChild(menuPageConent);
+
+    menuAnimation()
     
 }
 function food(image, heading, amount){

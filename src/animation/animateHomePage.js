@@ -10,7 +10,6 @@ function animation(){
     cards = Array.from(cards)
     console.log(allDiv)
 
-    let img = document.querySelector(".heading").childNodes;
     animate({
         elements: allDiv[0],
         duration: 3000,

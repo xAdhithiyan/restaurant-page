@@ -45,6 +45,8 @@
     margin-top:10px;
     padding-top:0px;
     border-right: 2px solid black;
+    z-index: 2;
+    background-color: white;
 }
 
 section img {
@@ -84,6 +86,8 @@ section > div > div:nth-child(3){
     grid-template-rows: 60px repeat(3,auto);
     margin-bottom: 10px;
     border-right: 2px solid black;
+    z-index: 2;
+    background-color: white;
 }
 .desert,
 .drink{
@@ -94,6 +98,8 @@ section > div > div:nth-child(3){
 }
 .desert{
     border-right: 2px solid black;
+    z-index: 1;
+    background-color: white;
 }
 .desert > div:nth-child(1){
     width: 80px;
@@ -105,4 +111,7 @@ section > div > div:nth-child(3){
 }
 .menuPage > .navigation > div:nth-child(2){
     border-bottom: 2px solid var(--text-color);
+}
+.drink{
+    z-index: 0;
 }
