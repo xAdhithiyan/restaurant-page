@@ -8,7 +8,6 @@ function animation(){
     
     let cards = allDiv[2].childNodes
     cards = Array.from(cards)
-    console.log(allDiv)
 
     animate({
         elements: allDiv[0],

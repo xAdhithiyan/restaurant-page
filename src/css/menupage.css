@@ -26,13 +26,14 @@
     border-radius: 5px;
     background-color: white;
     overflow: auto;
+}
+.menuPage .menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 240px 1fr;
     grid-auto-flow: column;
-
 }
-.menu hr {
+.menuPage .menu hr {
     border: 2px solid black;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;

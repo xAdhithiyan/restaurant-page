@@ -1,0 +1,36 @@
+.contactPage{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 45px auto 1fr auto;
+}
+.contactPage > div:nth-child(3){
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactPage > .navigation > div:nth-child(3){
+    border-bottom: 2px solid var(--text-color);
+}
+
+.contactPage img{
+    height: 50px;
+}
+.contactPage .menu > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:10px;
+}
+.contactPage .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maps{
+    margin:20px;
+}
+.contactPage .menu > div:nth-child(3){
+    margin:10px;
+}
