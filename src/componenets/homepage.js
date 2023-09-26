@@ -53,7 +53,9 @@ function homepage(){
 
 function navigationName(str , navigation){
     let div = document.createElement("div");
-    div.textContent = str;
+    let btn = document.createElement("button");
+    btn.textContent = str;
+    div.appendChild(btn)
     navigation.appendChild(div);
 }
 

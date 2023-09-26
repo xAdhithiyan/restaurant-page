@@ -14,3 +14,8 @@ body{
     height: 99vh;
     width: 100vw;
 }
+button{
+    background-color: var(--bg-color);
+    border:0px; 
+    color:var(--text-color)
+}
