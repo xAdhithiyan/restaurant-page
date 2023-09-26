@@ -15,7 +15,7 @@ A responsive,multi tabbed restaurant page built using HTML, CSS and JS.
 ## Installation
 To set up the project on the local machince made sure node.js is installed and run the following commands
 ```
-git@github.com:xAdhithiyan/restaurant-page.git
+git clone git@github.com:xAdhithiyan/restaurant-page.git
 cd restaurant-page
 npm i
 ```
