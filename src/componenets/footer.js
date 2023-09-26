@@ -14,8 +14,6 @@ function footer() {
     let img = document.createElement("img");
     img.setAttribute("src", github)
 
-
-
     anchor.appendChild(img)
     mainFooter.appendChild(anchor);
     return mainFooter;

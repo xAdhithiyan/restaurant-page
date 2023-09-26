@@ -3,7 +3,6 @@
     display: grid;
     grid-template-rows:45px repeat(2,auto) 1fr auto auto;
 }
-
 .navigation{
     display: flex;
     justify-content: center;
@@ -50,7 +49,6 @@ hr{
     margin-bottom: 50px;
     color: var(--text-color);
 }
-
 /* Cards */
 .mainCard{
     width: 80%;
@@ -61,7 +59,6 @@ hr{
     align-self: center;
     margin-bottom: 20px;
 }
-
 .card{
     box-sizing: border-box;
     height: 300px;
